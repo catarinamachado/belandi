@@ -1,332 +1,240 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Belandi</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-    <!-- Bootstrap Fremwork Main Css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- All Plugins css -->
-    <link rel="stylesheet" href="css/plugins.css">
-    <!-- Theme shortcodes/elements style -->
-    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
-    <!-- Theme main style -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- User style -->
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- Modernizr JS -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+<title>Belandi</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Little Closet template">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
-
 <body>
-    <!-- Body main wrapper start -->
-    <div class="wrapper fixed__footer">
-        <!-- Start Slider Area -->
-        <div class="slider__container slider--one">
-            <div class="slider__activation__wrap owl-carousel owl-theme">
-                <!-- Start Single Slide -->
-                <div class="slide slider__full--screen"
-                    style="background: rgba(0, 0, 0, 0) url(images/slider/belandi.png) no-repeat scroll center center / cover ;">
-                </div>
-                <!-- End Single Slide -->
-            </div>
-        </div>
-        <!-- Start Slider Area -->
-        <!-- Start Our Product Area -->
-        <section class="htc__product__area ptb--130 bg__white">
-            <div class="container">
-                <div class="htc__product__container">
-                    <!-- Start Product MEnu -->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="product__menu">
-                                <button data-filter="*"  class="is-checked">All</button>
+
+<div class="super_container">
+	<div class="super_container_inner">
+		<!-- Home -->
+
+		<div class="home">
+			<!-- Home Slider -->
+			<div class="home_slider_container">
+				<div class="owl-carousel owl-theme home_slider">
+					<!-- Slide -->
+					<div class="owl-item">
+						<div class="background_image" style="background-image:url(images/slider/belandi.png)"></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Products -->
+
+		<div class="products">
+			<div class="container">
+				<div class="row page_nav_row">
+					<div class="col">
+						<div class="page_nav">
+							<ul class="d-flex flex-row align-items-start justify-content-center">
+								<!-- <li class="active"><a data-filter="all" tabindex="-1">ALL</a></li>
+								<li><a data-filter="necklaces" tabindex="-1">NECKLACES</a></li>
+								<li><a data-filter="earrings" tabindex="-1">EARRINGS</a></li>-->
+
+								<button data-filter="*" class="is-checked">All</button>
                                 <button data-filter=".cat--3">Necklaces</button>
                                 <button data-filter=".cat--4">Earrings</button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Product MEnu -->
-                    <div class="row product__list">
-                        <!-- Start Single Product -->
-                        <div class="col-md-3 single__pro col-lg-3 col-md-4 cat--1 col-sm-12 cat--3">
-                            <div class="product foo">
-                                <div class="product__inner">
-                                    <div class="pro__thumb">
-                                        <img src="images/products/1.png" alt="product images">
-                                    </div>
-                                </div>
-                                <div class="product__details">
-                                    <h2>Colar com estrela do mar</br>(100% aço inoxidável)</h2>
-                                    <ul class="product__price">
-                                        <li>€4.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Product -->
-                        <!-- Start Single Product -->
-                        <div class="col-md-3 single__pro col-lg-3 col-md-4 cat--1 col-sm-12 cat--3">
-                            <div class="product foo">
-                                <div class="product__inner">
-                                    <div class="pro__thumb">
-                                        <img src="images/products/2.png" alt="product images">
-                                    </div>
-                                </div>
-                                <div class="product__details">
-                                    <h2>Colar com brilhante transparente</br>(100% aço inoxidável)</h2>
-                                    <ul class="product__price">
-                                        <li>€4.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Product -->
-                        <!-- Start Single Product -->
-                        <div class="col-md-3 single__pro col-lg-3 col-md-4 col-sm-12 cat--3">
-                            <div class="product foo">
-                                <div class="product__inner">
-                                    <div class="pro__thumb">
-                                        <img src="images/products/3.png" alt="product images">
-                                    </div>
-                                </div>
-                                <div class="product__details">
-                                    <h2>Colar com concha</br>(100% aço inoxidável)</h2>
-                                    <ul class="product__price">
-                                        <li>€4.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Product -->
-                        <!-- Start Single Product -->
-                        <div class="col-md-3 single__pro col-lg-3 col-md-4 col-sm-12 cat--3">
-                            <div class="product foo">
-                                <div class="product__inner">
-                                    <div class="pro__thumb">
-                                        <img src="images/products/4.png" alt="product images">
-                                    </div>
-                                </div>
-                                <div class="product__details">
-                                    <h2>Colar com trevos</br>(100% aço inoxidável)</h2>
-                                    <ul class="product__price">
-                                        <li>€4.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Product -->
-                        <!-- Start Single Product -->
-                        <div class="col-md-3 single__pro col-lg-3 cat--1 col-md-4 col-sm-12 cat--3">
-                            <div class="product foo">
-                                <div class="product__inner">
-                                    <div class="pro__thumb">
-                                        <img src="images/products/5.png" alt="product images">
-                                    </div>
-                                </div>
-                                <div class="product__details">
-                                    <h2>Colar com fada</br>(100% aço inoxidável)</h2>
-                                    <ul class="product__price">
-                                        <li>€4.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Product -->
-                        <!-- Start Single Product -->
-                        <div class="col-md-3 single__pro col-lg-3 col-md-4 col-sm-12 cat--3">
-                            <div class="product foo">
-                                <div class="product__inner">
-                                    <div class="pro__thumb">
-                                        <img src="images/products/6.png" alt="product images">
-                                    </div>
-                                </div>
-                                <div class="product__details">
-                                    <h2>Colar com lua</br>(100% aço inoxidável)</h2>
-                                    <ul class="product__price">
-                                        <li>€4.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Product -->
-                        <!-- Start Single Product -->
-                        <div class="col-md-3 single__pro col-lg-3 col-md-4 col-sm-12 cat--3">
-                            <div class="product foo">
-                                <div class="product__inner">
-                                    <div class="pro__thumb">
-                                        <a data-toggle="modal" data-target="#productModal7" title="Quick View" class="quick-view modal-view detail-link" href="#">
-                                            <img src="images/products/7.png" alt="product images">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="product__hover__info">
-                                    <ul class="product__action">
-                                        <a data-toggle="modal" data-target="#productModal7" title="Quick View" class="quick-view modal-view detail-link" href="#"><span class="ti-plus"></span></a>
-                                    </ul>
-                                </div>
-                                <div class="product__details">
-                                    <h2>Colar com círculo</br>(100% aço inoxidável)</h2>
-                                    <ul class="product__price">
-                                        <li>€4.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Product -->
-                        <!-- Start Single Product -->
-                        <div class="col-md-3 single__pro col-lg-3 col-md-4 col-sm-12 cat--3">
-                            <div class="product foo">
-                                <div class="product__inner">
-                                    <div class="pro__thumb">
-                                        <a data-toggle="modal" data-target="#productModal8" title="Quick View" class="quick-view modal-view detail-link" href="#">
-                                            <img src="images/products/8.png" alt="product images">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="product__hover__info">
-                                    <ul class="product__action">
-                                        <a data-toggle="modal" data-target="#productModal8" title="Quick View" class="quick-view modal-view detail-link" href="#"><span class="ti-plus"></span></a>
-                                    </ul>
-                                </div>
-                                <div class="product__details">
-                                    <h2>Colar com estrela</br>(100% aço inoxidável)</h2>
-                                    <ul class="product__price">
-                                        <li>€4.00</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Product -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Our Product Area -->
-        <!-- Start Footer Area -->
-        <footer class="htc__foooter__area" style="background: rgba(0, 0, 0, 0) no-repeat scroll center center / cover ;">
-            <div class="container">
-                <div class="row footer__container clearfix">
-                    <!-- Start Single Footer Widget -->
-                    <div class="col-md-6 col-lg-2 lg-offset-1 col-sm-6 smt-30 xmt-30">
-                        <div class="ft__widget">
-                            <h2 class="ft__title">Follow Us</h2>
-                            <ul class="social__icon">
-                                <li><a href="https://www.instagram.com/_belandi_/" target="_blank"><i class="zmdi zmdi-instagram"></i></a></li>
-                                <li><a href="https://www.facebook.com/belandi.store/" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Single Footer Widget -->
-                </div>
-            </div>
-        </footer>
-        <!-- End Footer Area -->
-    </div>
-    <!-- Body main wrapper end -->
-    <!-- QUICKVIEW PRODUCT -->
-    <div id="quickview-wrapper">
-        <!-- Modal -->
-        <div class="modal fade" id="productModal8" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal__container" role="document">
-                <div class="modal-content">
-                    <div class="modal-header modal__header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- Start Slider Area -->
-                        <div class="slider__container slider--one">
-                            <div class="slider__activation__wrap owl-carousel owl-theme">
-                                <!-- Start Single Slide -->
-                                <div class="slide slider__full--screen"
-                                    style="background: rgba(0, 0, 0, 0) url(images/details/cena2.png) no-repeat scroll center center / cover ;">
-                                </div>
-                                <!-- End Single Slide -->
-                                <!-- Start Single Slide -->
-                                <div class="slide slider__full--screen"
-                                    style="background: rgba(0, 0, 0, 0) url(images/details/b.png) no-repeat scroll center center / cover ;">
-                                </div>
-                                <!-- End Single Slide -->
-                            </div>
-                        </div>
-                    </div><!-- .modal-body -->
-                </div><!-- .modal-content -->
-            </div><!-- .modal-dialog -->
-        </div>
-        <!-- END Modal -->
-        <!-- Modal -->
-        <div class="modal fade" id="productModal7" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal__container" role="document">
-                <div class="modal-content">
-                    <div class="modal-header modal__header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="modal-product">
-                            <!-- Start product images -->
-                            <div class="product-images">
-                                <div class="main-image images">
-                                    <img alt="big images" src="images/products/7.png">
-                                </div>
-                            </div>
-                            <!-- end product images -->
-                            <div class="product-info">
-                                <h1>Simple Fabric Bags</h1>
-                                <div class="rating__and__review">
-                                    <ul class="rating">
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                        <li><span class="ti-star"></span></li>
-                                    </ul>
-                                    <div class="review">
-                                        <a href="#">4 customer reviews</a>
-                                    </div>
-                                </div>
-                                <div class="price-box-3">
-                                    <div class="s-price-box">
-                                        <span class="new-price">$17.20</span>
-                                        <span class="old-price">$45.00</span>
-                                    </div>
-                                </div>
-                                <div class="quick-desc">
-                                    Designed for simplicity and made from high quality materials. Its sleek geometry and material combinations creates a modern look.
-                                </div>
-                                <div class="addtocart-btn">
-                                    <a href="#">Buy this product</a>
-                                </div>
-                            </div><!-- .product-info -->
-                        </div><!-- .modal-product -->
-                    </div><!-- .modal-body -->
-                </div><!-- .modal-content -->
-            </div><!-- .modal-dialog -->
-        </div>
-        <!-- END Modal -->
-    </div>
-    <!-- END QUICKVIEW PRODUCT -->
-    <!-- Placed js at the end of the document so the pages load faster -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row products_row">
 
-    <!-- jquery latest version -->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <!-- Bootstrap Framework js -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- All js plugins included in this file. -->
-    <script src="js/plugins.js"></script>
-    <!-- Main js file that contents all jQuery plugins activation. -->
-    <script src="js/main.js"></script>
+					<!-- Product -->
+					<div class="col-xl-4 col-md-6 cat--3">
+						<div class="product" >
+							<div class="product_image"><img src="images/products/1.png" alt=""></div>
+							<div class="product_content">
+								<div class="product_info d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div>
+											<div class="product_name"><a href="product.html">Colar estrela do mar</a></div>
+										</div>
+									</div>
+									<div class="ml-auto text-right">
+										<div class="product_price text-right">€4<span>.00</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
+
+					<!-- Product -->
+					<div class="col-xl-4 col-md-6 cat--3">
+						<div class="product">
+							<div class="product_image"><img src="images/products/2.png" alt=""></div>
+							<div class="product_content">
+								<div class="product_info d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div>
+											<div class="product_name"><a href="product.html">Colar com brilhante</a></div>
+										</div>
+									</div>
+									<div class="ml-auto text-right">
+										<div class="product_price text-right">€4<span>.00</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product -->
+					<div class="col-xl-4 col-md-6 cat--4">
+						<div class="product">
+							<div class="product_image"><img src="images/products/3.png" alt=""></div>
+							<div class="product_content">
+								<div class="product_info d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div>
+											<div class="product_name"><a href="product.html">Colar com concha</a></div>
+										</div>
+									</div>
+									<div class="ml-auto text-right">
+										<div class="product_price text-right">€4<span>.00</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product -->
+					<div class="col-xl-4 col-md-6">
+						<div class="product">
+							<div class="product_image"><img src="images/products/4.png" alt=""></div>
+							<div class="product_content">
+								<div class="product_info d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div>
+											<div class="product_name"><a href="product.html">Colar com trevos</a></div>
+										</div>
+									</div>
+									<div class="ml-auto text-right">
+										<div class="product_price text-right">€4<span>.00</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product -->
+					<div class="col-xl-4 col-md-6">
+						<div class="product">
+							<div class="product_image"><img src="images/products/5.png" alt=""></div>
+							<div class="product_content">
+								<div class="product_info d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div>
+											<div class="product_name"><a href="product.html">Colar com fada</a></div>
+										</div>
+									</div>
+									<div class="ml-auto text-right">
+										<div class="product_price text-right">€4<span>.00</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product -->
+					<div class="col-xl-4 col-md-6">
+						<div class="product">
+							<div class="product_image"><img src="images/products/6.png" alt=""></div>
+							<div class="product_content">
+								<div class="product_info d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div>
+											<div class="product_name"><a href="product.html">Colar com lua</a></div>
+										</div>
+									</div>
+									<div class="ml-auto text-right">
+										<div class="product_price text-right">€4<span>.00</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="row load_more_row">
+					<div class="col">
+						<div class="button load_more ml-auto mr-auto"><a href="#">load more</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="footer_content">
+				<div class="container">
+					<div class="row">
+
+						<!-- About
+						<div class="col-lg-4 footer_col">
+							<div class="footer_about">
+								<div class="footer_logo">
+									<a href="#">
+										<div class="d-flex flex-row align-items-center justify-content-start">
+											<div class="footer_logo_icon"><img src="images/logo_2.png" alt=""></div>
+											<div>Belandi</div>
+										</div>
+									</a>
+								</div>
+								<div class="footer_about_text">
+									<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Fusce venenatis vel velit vel euismod.</p>
+								</div>
+							</div>
+						</div>-->
+
+						<!-- Footer Contact -->
+						<div class="col-lg-4 footer_col">
+							<div class="footer_contact">
+								<div class="footer_social">
+									<div class="footer_title">Follow us</div>
+									<ul class="footer_social_list d-flex flex-row align-items-start justify-content-start">
+										<li><a href="https://www.facebook.com/belandi.store/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="https://www.instagram.com/_belandi_/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
-
 </html>
